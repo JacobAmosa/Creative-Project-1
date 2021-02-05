@@ -3,3 +3,24 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(97, 95, 95);
+}
+
+.top_text {
+    font-family: 'Potta One', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
