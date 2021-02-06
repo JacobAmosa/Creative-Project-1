@@ -29,3 +29,15 @@ img {
     background-color: rgb(130, 204, 233);
     font-family: 'Potta One', cursive;
 }
+
+@media (min-width: 48em) {
+    .navbar-nav {
+      margin-left: auto!important;
+      margin-right: 0!important;
+  }
+  img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+}
