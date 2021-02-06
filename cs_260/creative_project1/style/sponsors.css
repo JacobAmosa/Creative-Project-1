@@ -12,3 +12,24 @@ body {
     background-color: rgb(97, 95, 95);
 }
 
+/* Image Grid */
+.sponsors {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+
+  .thanks {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    border-bottom: 5px solid red;
+    margin-bottom: 20px;
+    background: rgb(219, 219, 219);
+  }
